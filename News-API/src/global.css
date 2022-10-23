@@ -1,0 +1,54 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background: linear-gradient(
+    90deg,
+    hsla(205, 46%, 10%, 1) 0%,
+    hsla(191, 28%, 23%, 1) 50%,
+    hsla(207, 41%, 27%, 1) 100%
+  );
+  font-family: sans-serif;
+}
+
+main {
+  flex-grow: 1;
+}
+
+header {
+  text-align: center;
+  padding: 10px 30px;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .copyright {
+  font-size: 14px;
+  color: #99f2d1;
+  text-align: center;
+}
+footer .copyright a {
+  color: #99f2d1;
+}
+footer .copyright a:hover {
+  color: #21e59c;
+}
+footer .copyright:before {
+  content: '©';
+}
+
+.copyright__logo {
+  width: 80px;
+  height: 80px;
+  margin: 0 10px;
+}
